@@ -1,0 +1,165 @@
+*{
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+.logorestaurante{
+    display: flex;
+    width: 90px;
+    justify-content: flex-start;
+}
+.boasvindas{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 220, 176);
+}
+.imgrest{
+    
+    display: inline-flex;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    border-radius: 30%;
+}
+.titulosomos, .venha{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.linked{
+    font-size: 30px;
+    background-color: rgba(151, 1, 1, 0.342);
+    border:none;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+    transition: .3s ease all;
+    border-radius: 10%;
+    margin-top: 20px;
+
+}
+.linked:hover{
+    background-color: white;
+    color:black;
+
+}
+.quemsomos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.logo{
+
+    font-size: 41px;
+    font-family: 'Gideon Roman', cursive;
+
+}
+header div {
+    
+    
+    background-color: bisque;
+    margin: 4rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+
+    font-size: 1.2rem;
+    
+    
+}
+
+header{
+    display:flex;
+    justify-content: center;
+}
+
+header nav a{
+    
+   
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(73, 0, 0);
+    border-radius: 10px;
+
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+
+
+header nav a:hover{
+    color:rgb(189, 37, 37);
+    cursor:pointer;
+
+}
+
+.cafedamanha, .almoco {
+    display:flex;
+    margin-top: 30px;
+}
+
+.imagens{
+    border-radius:50%;
+}
+
+.informacao{
+   display: list-item;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.janta, .sobremesas{
+    display: flex;
+    margin-top: 30px;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.titulopratos{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+.criador{
+
+    
+    margin-top: 42px;
+    text-align: center;
+    justify-content: center;
+
+}
